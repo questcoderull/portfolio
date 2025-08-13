@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Fitify - Fitness Tracker",
+    "image": "https://i.ibb.co.com/jkNcz60v/Screenshot-2025-08-08-194740.png",
+    "shortDescription": "A full-featured fitness tracker web app supporting Member, Trainer, and Admin dashboards with booking, payments, and progress tracking.",
+    "techStack": [
+      "React.js",
+      "Tailwind CSS",
+      "DaisyUI",
+      "React Router",
+      "TanStack Query",
+      "Axios",
+      "SweetAlert2",
+      "Stripe.js",
+      "Firebase",
+      "dotenv",
+      "react-helmet-async",
+      "react-hot-toast",
+      "react-select",
+      "react-hook-form",
+      "Recharts",
+      "react-slick",
+      "slick-carousel",
+      "react-responsive-carousel",
+      "Google Font (Outfit)",
+      "MongoDB",
+      "Express.js",
+      "JWT"
+    ],
+    "liveLink": "https://fitify-5fe13.web.app/",
+    "githubLink": "https://github.com/questcoderull",
+    "challenges": [
+      "Implementing role-based authentication for multiple dashboards.",
+      "Integrating Stripe for secure online payments.",
+      "Managing complex state across multiple user roles."
+    ],
+    "futurePlans": [
+      "Add AI-based workout recommendations.",
+      "Enable real-time chat between trainers and members.",
+      "Integrate wearable device tracking."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Readly - Blogging Platform",
+    "image": "https://i.ibb.co.com/R4t2pKVH/Screenshot-2025-08-08-194703.png",
+    "shortDescription": "Readly is a simple yet powerful blogging platform where users can write blogs, explore content, save to wishlist, and comment on posts.",
+    "techStack": [
+      "React.js",
+      "Tailwind CSS",
+      "DaisyUI",
+      "React Router",
+      "Firebase",
+      "react-typo-animation",
+      "framer-motion",
+      "react-hot-toast",
+      "Google Font (Outfit)",
+      "lottie-react",
+      "react-tooltip",
+      "react-awesome-reveal",
+      "react-fast-marquee"
+    ],
+    "liveLink": "https://readly-8b506.web.app/",
+    "githubLink": "https://github.com/questcoderull",
+    "challenges": [
+      "Implementing wishlist feature with Firebase.",
+      "Handling real-time comments across multiple users.",
+      "Optimizing animation performance for smooth UX."
+    ],
+    "futurePlans": [
+      "Add user profile pages with bio and social links.",
+      "Introduce blog categories and search filters.",
+      "Enable collaborative blog editing."
+    ]
+  }
+]
