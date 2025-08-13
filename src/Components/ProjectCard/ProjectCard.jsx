@@ -52,18 +52,12 @@ const ProjectCard = ({ project }) => {
         >
           Source Code
         </a>
-        {/* <Link
+        <Link
           to={`/projects/${project.id}`}
           className="btn btn-accent py-6 px-8 rounded-xl"
         >
           View More
-        </Link> */}
-        <a
-          href={`/projects/${project.id}`}
-          className="btn btn-accent py-6 px-8 rounded-xl"
-        >
-          View More
-        </a>
+        </Link>
       </div>
     </div>
   );
