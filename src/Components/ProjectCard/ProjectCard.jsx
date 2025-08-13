@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.name}
-        className="rounded-lg mb-3 border border-gray-600"
+        className="rounded-lg mb-3 border border-gray-600 h-[300px] w-full object-cover object-top"
       />
 
       {/* Project Name */}

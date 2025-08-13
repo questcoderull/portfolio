@@ -18,7 +18,7 @@ const ProjectDetails = () => {
       <img
         src={project.image}
         alt={project.name}
-        className="rounded-lg mb-6 border border-gray-700"
+        className="rounded-lg mb-6 border border-gray-700 h-full w-full"
       />
 
       {/* Project Name */}

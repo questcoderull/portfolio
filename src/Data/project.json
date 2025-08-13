@@ -96,5 +96,29 @@
     "githubLink": "https://github.com/questcoderull",
     "challenges": "Integrating real-time like counts and ensuring smooth image sliders for multiple rooms.",
     "futurePlans": "Implement a booking calendar and allow image uploads for room listings."
+  },
+  {
+    "id": 4,
+    "name": "AppForest - App Showcase Platform",
+    "image": "https://i.ibb.co.com/XrnXQF0q/app-forest.png",
+    "description": "A beautiful web app built with React, Tailwind CSS, DaisyUI, and Toastify to showcase apps with detailed information, ratings, and reviews, including login/logout and update system.",
+    "techStack": {
+      "frontend": [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "react-toastify",
+        "sweetalert2",
+        "react-helmet-async",
+        "react-icons"
+      ],
+      "backend": ["Firebase Authentication", "JSON Fake App Data"],
+      "deployment": ["Netlify"]
+    },
+    "liveLink": "https://appforest-live-link.com",
+    "githubLink": "https://github.com/questcoderull",
+    "challenges": "Implementing login/logout, protected routes, app installation logic, and dynamic user reviews.",
+    "futurePlans": "Add more app categories, real-time reviews and ratings, and improve performance and animations."
   }
 ]
