@@ -2,55 +2,52 @@ import React from "react";
 import { Link } from "react-router";
 
 const ProjectCard = ({ project }) => {
+  // Tech stack object merge into a single array
+  const techs = Object.values(project.techStack).flat();
+
   return (
-    <div className="bg-[#1E293B] p-6 rounded-xl shadow-lg border border-gray-800 transition hover:shadow-xl hover:-translate-y-1 duration-300">
-      {/* Image */}
+    <div className="bg-[#1E293B] p-5 rounded-lg shadow-md border border-gray-700 hover:shadow-lg transition duration-300">
+      {/* Project Image */}
       <img
         src={project.image}
         alt={project.name}
-        className="rounded-lg mb-4 border border-gray-700"
+        className="rounded-lg mb-3 border border-gray-600"
       />
 
-      {/* Title */}
-      <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
+      {/* Project Name */}
+      <h3 className="text-2xl mt-5 font-bold mb-2">{project.name}</h3>
 
       {/* Short Description */}
-      <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-        {project.shortDescription}
+      <p className="text-gray-300 text-md mb-5">
+        {project.shortDescription || project.description}
       </p>
 
-      {/* Tech Stack Preview */}
-      <div className="mb-4">
-        <h4 className="text-white font-semibold mb-2">Tech Stack:</h4>
-        <div className="flex flex-wrap gap-2">
-          {project.techStack.slice(0, 5).map((tech, index) => (
-            <span
-              key={index}
-              className="badge badge-outline text-blue-300 border-gray-600"
-            >
-              {tech}
-            </span>
-          ))}
-        </div>
+      {/* Show only few techs */}
+      <div className="flex flex-wrap gap-2 mb-3">
+        {techs.slice(0, 4).map((tech, index) => (
+          <span
+            key={index}
+            className="badge badge-outline text-blue-300 border-gray-600 text-xs"
+          >
+            {tech}
+          </span>
+        ))}
+        {techs.length > 4 && (
+          <span className="text-xs text-gray-400">
+            +{techs.length - 4} more
+          </span>
+        )}
       </div>
 
       {/* Buttons */}
-      <div className="flex gap-3 flex-wrap">
+      <div className="mt-8 flex gap-2 flex-wrap">
         <a
           href={project.liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-primary py-6 px-8 rounded-xl"
+          className="btn  btn-primary py-6 px-8 rounded-xl"
         >
           Live Demo
-        </a>
-        <a
-          href={project.githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline py-6 px-8 rounded-xl text-white border-gray-600 hover:bg-gray-800"
-        >
-          Source Code
         </a>
         <Link
           to={`/projects/${project.id}`}

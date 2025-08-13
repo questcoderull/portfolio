@@ -3,75 +3,98 @@
     "id": 1,
     "name": "Fitify - Fitness Tracker",
     "image": "https://i.ibb.co.com/jkNcz60v/Screenshot-2025-08-08-194740.png",
-    "shortDescription": "A full-featured fitness tracker web app supporting Member, Trainer, and Admin dashboards with booking, payments, and progress tracking.",
-    "techStack": [
-      "React.js",
-      "Tailwind CSS",
-      "DaisyUI",
-      "React Router",
-      "TanStack Query",
-      "Axios",
-      "SweetAlert2",
-      "Stripe.js",
-      "Firebase",
-      "dotenv",
-      "react-helmet-async",
-      "react-hot-toast",
-      "react-select",
-      "react-hook-form",
-      "Recharts",
-      "react-slick",
-      "slick-carousel",
-      "react-responsive-carousel",
-      "Google Font (Outfit)",
-      "MongoDB",
-      "Express.js",
-      "JWT"
-    ],
+    "description": "A full-featured fitness tracker web app supporting Member, Trainer, and Admin dashboards with booking, payments, and progress tracking.",
+    "techStack": {
+      "frontend": [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "TanStack Query",
+        "Axios",
+        "SweetAlert2",
+        "Stripe.js",
+        "Firebase",
+        "dotenv",
+        "react-helmet-async",
+        "react-hot-toast",
+        "react-select",
+        "react-hook-form",
+        "Recharts",
+        "react-slick",
+        "slick-carousel",
+        "react-responsive-carousel",
+        "Google Font (Outfit)"
+      ],
+      "backend": ["Node.js", "Express.js", "MongoDB", "JWT"],
+      "deployment": ["Firebase Hosting"]
+    },
     "liveLink": "https://fitify-5fe13.web.app/",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": [
-      "Implementing role-based authentication for multiple dashboards.",
-      "Integrating Stripe for secure online payments.",
-      "Managing complex state across multiple user roles."
-    ],
-    "futurePlans": [
-      "Add AI-based workout recommendations.",
-      "Enable real-time chat between trainers and members.",
-      "Integrate wearable device tracking."
-    ]
+    "challenges": "Implementing role-based authentication for multiple dashboards and integrating Stripe for secure payments.",
+    "futurePlans": "Add AI-based workout recommendations, enable real-time chat between trainers and members, and integrate wearable device tracking."
   },
   {
     "id": 2,
     "name": "Readly - Blogging Platform",
     "image": "https://i.ibb.co.com/R4t2pKVH/Screenshot-2025-08-08-194703.png",
-    "shortDescription": "Readly is a simple yet powerful blogging platform where users can write blogs, explore content, save to wishlist, and comment on posts.",
-    "techStack": [
-      "React.js",
-      "Tailwind CSS",
-      "DaisyUI",
-      "React Router",
-      "Firebase",
-      "react-typo-animation",
-      "framer-motion",
-      "react-hot-toast",
-      "Google Font (Outfit)",
-      "lottie-react",
-      "react-tooltip",
-      "react-awesome-reveal",
-      "react-fast-marquee"
-    ],
+    "description": "Readly is a simple yet powerful blogging platform where users can write blogs, explore content, save to wishlist, and comment on posts.",
+    "techStack": {
+      "frontend": [
+        "React.js",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Router",
+        "Firebase",
+        "react-typo-animation",
+        "framer-motion",
+        "react-hot-toast",
+        "Google Font (Outfit)",
+        "lottie-react",
+        "react-tooltip",
+        "react-awesome-reveal",
+        "react-fast-marquee"
+      ],
+      "backend": [],
+      "deployment": ["Firebase Hosting"]
+    },
     "liveLink": "https://readly-8b506.web.app/",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": [
-      "Implementing wishlist feature with Firebase.",
-      "Handling real-time comments across multiple users.",
-      "Optimizing animation performance for smooth UX."
-    ],
-    "futurePlans": [
-      "Add user profile pages with bio and social links.",
-      "Introduce blog categories and search filters.",
-      "Enable collaborative blog editing."
-    ]
+    "challenges": "Implementing wishlist feature with Firebase and handling real-time comments across multiple users.",
+    "futurePlans": "Add user profile pages with bio and social links, introduce blog categories, and enable collaborative blog editing."
+  },
+  {
+    "id": 3,
+    "name": "Find My Hoomie - Room Booking Platform",
+    "image": "https://i.ibb.co.com/RTRyQC4M/find-my-homio.png",
+    "description": "A full-stack room listing and booking platform where users can browse rooms, book them, and manage their own listings. Features user authentication, room management, and dynamic UI animations.",
+    "techStack": {
+      "frontend": [
+        "React.js",
+        "Tailwind CSS",
+        "Daisy UI",
+        "React Router",
+        "Firebase Authentication",
+        "React Awesome Reveal",
+        "React Tooltip",
+        "React Icons",
+        "Swiper.js",
+        "Vite",
+        ".env.local"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "MongoDB Native Driver",
+        "CORS",
+        "dotenv"
+      ],
+      "deployment": ["Firebase Hosting", "Vercel"]
+    },
+    "liveLink": "https://find-my-hoomie.web.app/",
+    "githubLink": "https://github.com/questcoderull",
+    "challenges": "Integrating real-time like counts and ensuring smooth image sliders for multiple rooms.",
+    "futurePlans": "Implement a booking calendar and allow image uploads for room listings."
   }
 ]
