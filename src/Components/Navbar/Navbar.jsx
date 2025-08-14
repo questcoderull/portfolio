@@ -38,13 +38,13 @@ const Navbar = () => {
           href="#banner"
           className="hidden md:block text-xl font-bold tracking-wide hover:text-primary transition-colors"
         >
-          Reja..
+          <span className="text-secondary">Re</span>ja..
         </a>
         <Link
           to="/"
           className="md:hidden text-xl font-bold tracking-wide hover:text-primary transition-colors"
         >
-          Reja..
+          Re<span className="text-secondary">ja..</span>
         </Link>
 
         {/* Desktop Links */}

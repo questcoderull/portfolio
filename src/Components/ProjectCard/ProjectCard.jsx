@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import { FaGlobe, FaRegEye } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   // Tech stack object merge into a single array
@@ -47,14 +48,16 @@ const ProjectCard = ({ project }) => {
           href={project.liveLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn  btn-primary py-6 px-8 rounded-xl"
+          className="btn btn-primary py-6 px-8 rounded-xl flex items-center gap-2"
         >
+          <FaGlobe className="text-lg" />
           Live Demo
         </a>
         <Link
           to={`/projects/${project.id}`}
-          className="btn btn-accent py-6 px-8 rounded-xl"
+          className="btn btn-secondary text-gray-600 py-6 px-8 rounded-xl flex items-center gap-2"
         >
+          <FaRegEye className="text-lg" />
           View More
         </Link>
       </div>

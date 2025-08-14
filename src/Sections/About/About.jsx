@@ -23,9 +23,11 @@ const About = () => {
         About <span className="text-[#4FC3F7]">Me</span>
       </h2>
       <p className="text-lg text-center text-base-content max-w-3xl mx-auto mb-12 leading-relaxed">
-        Hello! My name is <span className="font-semibold">Rejaul Karim</span>. I
-        am a passionate beginner web developer and a dedicated English learner
-        from Sylhet, Bangladesh.
+        Hello! My name is{" "}
+        <span className="text-secondary font-semibold">Rejaul Karim</span>. I am
+        a passionate beginner web developer and a dedicated English learner from
+        Sylhet, Bangladesh. I study at a Qawmi Madrasah and balance my education
+        with my love for technology and creativity.
       </p>
 
       {/* Main Grid Layout */}
