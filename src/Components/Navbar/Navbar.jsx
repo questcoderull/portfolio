@@ -12,7 +12,7 @@ const Navbar = () => {
         {/* Right - Icons */}
         <div className="flex items-center gap-6 text-xl">
           <a
-            href="https://github.com/"
+            href="https://github.com/questcoderull"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300 transition-colors"
@@ -23,7 +23,7 @@ const Navbar = () => {
             <TbArrowBackUp />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/rejaul-karim12/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-300 transition-colors"
