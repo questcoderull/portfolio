@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Fitify - Fitness Tracker",
-    "image": "https://i.ibb.co.com/jkNcz60v/Screenshot-2025-08-08-194740.png",
+    "image": "final-fitify.png",
     "description": "A full-featured fitness tracker web app supporting Member, Trainer, and Admin dashboards with booking, payments, and progress tracking.",
     "techStack": {
       "frontend": [
@@ -37,7 +37,7 @@
   {
     "id": 2,
     "name": "Readly - Blogging Platform",
-    "image": "https://i.ibb.co.com/R4t2pKVH/Screenshot-2025-08-08-194703.png",
+    "image": "/readly-dark-long.png",
     "description": "Readly is a simple yet powerful blogging platform where users can write blogs, explore content, save to wishlist, and comment on posts.",
     "techStack": {
       "frontend": [
@@ -66,7 +66,7 @@
   {
     "id": 3,
     "name": "Find My Hoomie - Room Booking Platform",
-    "image": "https://i.ibb.co.com/RTRyQC4M/find-my-homio.png",
+    "image": "/findmyhoomio-long.png",
     "description": "A full-stack room listing and booking platform where users can browse rooms, book them, and manage their own listings. Features user authentication, room management, and dynamic UI animations.",
     "techStack": {
       "frontend": [
@@ -100,7 +100,7 @@
   {
     "id": 4,
     "name": "AppForest - App Showcase Platform",
-    "image": "https://i.ibb.co.com/XrnXQF0q/app-forest.png",
+    "image": "/appForest-long.png",
     "description": "A beautiful web app built with React, Tailwind CSS, DaisyUI, and Toastify to showcase apps with detailed information, ratings, and reviews, including login/logout and update system.",
     "techStack": {
       "frontend": [

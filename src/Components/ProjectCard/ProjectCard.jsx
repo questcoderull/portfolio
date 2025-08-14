@@ -6,13 +6,15 @@ const ProjectCard = ({ project }) => {
   const techs = Object.values(project.techStack).flat();
 
   return (
-    <div className="bg-[#1E293B] p-5 rounded-lg shadow-md border border-gray-700 hover:shadow-lg transition duration-300">
-      {/* Project Image */}
-      <img
-        src={project.image}
-        alt={project.name}
-        className="rounded-lg mb-3 border border-gray-600 h-[300px] w-full object-cover object-top"
-      />
+    <div className="bg-[#1E293B] p-5 rounded-lg shadow-md border border-gray-700 hover:shadow-lg transition duration-300 group overflow-hidden">
+      {/* Image Container */}
+      <div className="rounded-lg mb-3 border border-gray-600 h-[300px] w-full overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.name}
+          className="h-auto w-full rounded-lg object-cover object-top transition-transform duration-9000 ease-linear group-hover:-translate-y-[calc(100%-300px)]"
+        />
+      </div>
 
       {/* Project Name */}
       <h3 className="text-2xl mt-5 font-bold mb-2">{project.name}</h3>
