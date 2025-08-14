@@ -31,7 +31,7 @@
     },
     "liveLink": "https://fitify-5fe13.web.app/",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": "Implementing role-based authentication for multiple dashboards and integrating Stripe for secure payments.",
+    "challenges": "The biggest challenge was implementing role-based authentication for three different dashboards — Member, Trainer, and Admin. It was my first experience creating a dashboard system and integrating secure payments with Stripe. I had to manage multiple permissions, ensure a smooth user experience, and install many different npm packages to make the features work together seamlessly.",
     "futurePlans": "Add AI-based workout recommendations, enable real-time chat between trainers and members, and integrate wearable device tracking."
   },
   {
@@ -60,7 +60,7 @@
     },
     "liveLink": "https://readly-8b506.web.app/",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": "Implementing wishlist feature with Firebase and handling real-time comments across multiple users.",
+    "challenges": "Implementing the wishlist feature with Firebase and real-time comments across multiple users was a complex task. It was also my first time working with Lottie animations, which made the project feel more dynamic. One of the trickiest parts was changing the fill color for wishlisted blogs in real-time, as well as implementing both light and dark mode using DaisyUI themes — a feature that took hours of experimentation before I finally nailed it.",
     "futurePlans": "Add user profile pages with bio and social links, introduce blog categories, and enable collaborative blog editing."
   },
   {
@@ -94,7 +94,7 @@
     },
     "liveLink": "https://find-my-hoomie.web.app/",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": "Integrating real-time like counts and ensuring smooth image sliders for multiple rooms.",
+    "challenges": "Building a booking platform meant handling real-time updates, like live like counts for each room, while keeping the UI smooth and visually appealing. Integrating image sliders for multiple listings and managing Firebase authentication for user logins was a tough balancing act. At the time, working with the MyListing feature set was especially challenging and taught me a lot about organizing complex UI states.",
     "futurePlans": "Implement a booking calendar and allow image uploads for room listings."
   },
   {
@@ -118,7 +118,7 @@
     },
     "liveLink": "https://appforest-live-link.com",
     "githubLink": "https://github.com/questcoderull",
-    "challenges": "Implementing login/logout, protected routes, app installation logic, and dynamic user reviews.",
+    "challenges": "The main challenges were implementing secure login/logout, protecting routes, and designing a smooth app installation process. Managing dynamic user reviews in real-time while keeping the UI fast and interactive required careful planning and optimization.",
     "futurePlans": "Add more app categories, real-time reviews and ratings, and improve performance and animations."
   }
 ]
