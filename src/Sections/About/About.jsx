@@ -82,7 +82,7 @@ const About = () => {
           >
             My programming journey began a few months ago. So far, I have
             learned{" "}
-            <span className="font-semibold">
+            <span className="font-semibold text-secondary">
               HTML, CSS, Tailwind CSS, JavaScript, React, Node.js, Express.js,
               MongoDB, Git, and GitHub
             </span>
@@ -109,8 +109,8 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <h3 className="text-2xl font-semibold text-primary mb-2">
-              Hobbies & Interests
+            <h3 className="text-2xl font-semibold mb-2">
+              Hobbies & <span className="text-secondary">Interests</span>
             </h3>
             <p className="text-lg text-base-content leading-relaxed">
               Traveling ✈, Writing 🖋, Learning 🧠, Web Development 💻, and
@@ -124,8 +124,8 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            <h3 className="text-2xl font-semibold text-primary mb-2">
-              My Personality
+            <h3 className="text-2xl font-semibold mb-2">
+              My <span className="text-secondary">Personality</span>
             </h3>
             <p className="text-lg text-base-content leading-relaxed">
               I am hardworking, curious, and eager to grow. I believe in taking

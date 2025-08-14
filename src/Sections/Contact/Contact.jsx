@@ -6,8 +6,10 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   return (
     <section id="contact" className=" py-12">
-      <h1 className="text-center text-4xl font-bold pb-3">Get In Touch</h1>
-      <p className="text-center pb-12 text-gray-300">
+      <h1 className="text-center text-4xl font-bold pb-3">
+        Get In <span className="text-secondary">Touch</span>
+      </h1>
+      <p className="text-center text-xl pb-12 text-gray-300">
         Have a project in mind or want to collaborate? I'd love to hear from
         you!
       </p>
@@ -57,7 +59,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-lg font-medium mb-4">Let's connect!</h2>
+          <h2 className="text-xl font-bold mb-4">Let's connect!</h2>
           <p className="mb-6 text-gray-300">
             I’m always open to discussing new opportunities, creative ideas, or
             potential collaborations.

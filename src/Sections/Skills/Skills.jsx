@@ -31,9 +31,18 @@ export default function Skills() {
   return (
     <section id="skills" className="bg-base-200 py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl  font-bold mb-8 text-primary text-center">
-          My Skills
+        <h2 className="text-4xl  font-bold pb-2 text-secondary text-center">
+          My <span className="text-white">Skills</span>
         </h2>
+
+        <p className="text-center text-xl max-w-4xl mx-auto text-gray-300 font-medium">
+          A blend of technical expertise and creative problem-solving — these
+          are the tools, technologies, and disciplines that empower me to turn
+          ideas into impactful digital experiences.
+        </p>
+        <p className="text-gray-300 text-center mb-8">
+          (Design, develop, and deliver with precision)
+        </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 ">
           {skills.map((skill, index) => (
