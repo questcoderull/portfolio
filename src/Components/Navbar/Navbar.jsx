@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router";
 
 const navLinks = [
   { name: "Home", href: "#banner" },
@@ -35,10 +36,16 @@ const Navbar = () => {
         {/* Logo */}
         <a
           href="#banner"
-          className="text-xl font-bold tracking-wide hover:text-primary transition-colors"
+          className="hidden md:block text-xl font-bold tracking-wide hover:text-primary transition-colors"
         >
           Reja..
         </a>
+        <Link
+          to="/"
+          className="md:hidden text-xl font-bold tracking-wide hover:text-primary transition-colors"
+        >
+          Reja..
+        </Link>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-6 font-medium">
@@ -99,7 +106,7 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <li className="mt-2 flex gap-4 text-lg text-gray-600">
+            <li className="mt-2 grid grid-cols-4 text-lg text-gray-600">
               {socialLinks.map(({ icon, href, label }) => (
                 <a
                   key={label}
