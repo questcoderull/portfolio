@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className=" py-12">
+    <section id="contact" className=" py-12">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8">
         {/* Left Side - Form */}
         <motion.div

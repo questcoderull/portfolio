@@ -25,7 +25,10 @@ const Banner = () => {
         </div>
       </div> */}
 
-      <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] px-4">
+      <section
+        id="banner"
+        className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] px-4"
+      >
         <div className="max-w-6xl w-full flex flex-col md:flex-row items-center justify-between">
           {/* Left Content */}
           <div className="text-center md:text-left space-y-6">

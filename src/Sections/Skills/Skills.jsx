@@ -29,7 +29,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="bg-base-200 py-16 px-6">
+    <section id="skills" className="bg-base-200 py-16 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl  font-bold mb-8 text-primary text-center">
           My Skills

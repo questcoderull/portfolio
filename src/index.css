@@ -5,4 +5,18 @@
 
 * {
   font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+  * {
+    scroll-padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  * {
+    scroll-padding-top: 30px;
+  }
 }
