@@ -33,13 +33,16 @@ const About = () => {
       {/* Main Grid Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
         {/* Left Side - Image Gallery with hover vibe */}
-        <div className="flex justify-center items-center">
-          <div className="relative group w-full max-w-lg h-72 sm:h-80 md:h-96 lg:h-[32rem] flex items-center justify-center mb-10 lg:mb-0">
+        <div className="flex justify-center items-center px-4">
+          {" "}
+          {/* px-4 adds side padding */}
+          <div className="relative group w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-48 sm:h-64 md:h-80 lg:h-[32rem] flex items-center justify-center mb-0 sm:mb-14 md:mb-24 lg:mb-0">
+            {/* Ei bar ami mb er modify korsi. */}
             {/* Background Shape */}
             <div
               className="absolute -inset-3 rounded-2xl -rotate-3 
-                       transition-transform duration-500 ease-in-out 
-                       group-hover:rotate-0  "
+                 transition-transform duration-500 ease-in-out 
+                 group-hover:rotate-0"
             >
               {/* Stack of images */}
               <div className="relative">
@@ -49,19 +52,19 @@ const About = () => {
                     src={src}
                     alt={`Gallery ${index + 1}`}
                     className="absolute rounded-2xl object-cover shadow-lg 
-           w-72 sm:w-80 md:w-96 lg:w-[28rem] 
-           h-72 sm:h-80 md:h-96 lg:h-[28rem] 
-           border-[3px] border-gray-200"
+                       w-40 sm:w-72 md:w-96 lg:w-[28rem] 
+                       h-40 sm:h-72 md:h-96 lg:h-[28rem] 
+                       border-[3px] border-gray-200"
                     style={{
-                      top: index * 25,
-                      left: index * 35,
+                      top: index * 25, //eitato modify korsi. 25, 15 atc
+                      left: index * 20, //eitato modify korsi. 25, 15 , 10 atc
                       zIndex: images.length - index,
                     }}
                     initial={{ rotate: -3 + index * 2 }}
                     whileHover={{
                       rotate: 0,
-                      x: (index - 1.5) * 90,
-                      y: -20,
+                      x: (index - 1.5) * 70,
+                      y: -15,
                       zIndex: 50,
                       scale: 1.05,
                     }}

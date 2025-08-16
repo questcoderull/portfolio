@@ -73,7 +73,7 @@ const Contact = () => {
               <div>
                 <p className="text-lg font-medium">Email</p>
                 <p className="hover:text-primary cursor-pointer">
-                  questcoderull@gmail.com
+                  rejaulkarimdev1@gmail.com
                 </p>
               </div>
             </div>

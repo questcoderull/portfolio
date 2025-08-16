@@ -62,8 +62,8 @@ const Banner = () => {
               <FaUser /> Contact Me
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href="https://drive.google.com/file/d/15J4qANDBgKYFHKcnl1inYy1neSaYBoBC/view?usp=sharing"
+              target="_blank"
               className="flex items-center gap-2 px-8 py-3 bg-[#2B4675] hover:bg-gray-800 text-white rounded-xl transition-colors"
             >
               Resume <HiDownload />
